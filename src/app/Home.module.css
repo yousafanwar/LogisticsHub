@@ -1,0 +1,98 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-image: url("/1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 760px) {
+    .hero {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-image: url("/mobile2.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .overlay {
+        background-color: transparent;
+        padding: 10px;
+    }
+
+    .overlay h1 {
+        font-size: 2rem;
+    }
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    width: 300px;
+    max-width: 100%;
+    height: 300px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-image: url('/2.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white
+}
+
+.cardTitle {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+
+}
+
+.cardDescription {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+.btn {
+    background-color: inherit;
+    color: black;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
