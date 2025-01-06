@@ -1,0 +1,30 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('/office.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    margin: 20px;
+    text-align: center;
+}
+
+@media(max-width: 760px){
+    .about h1{
+        font-size: 2rem;
+    }
+    .about h5{
+        font-size: 1rem;
+    }
+}
