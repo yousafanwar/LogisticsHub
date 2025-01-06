@@ -28,10 +28,10 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar position="static" sx={{backgroundColor: '#333'}}>
+    <AppBar position="static" sx={{ backgroundColor: '#333333', padding: '10px', color: 'white' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <Link href={'/'} style={{textDecoration: 'none'}}>
+          <Link href={'/'} style={{textDecoration: 'none', color: 'inherit'}}>
           <HomeIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
           </Link>
 
@@ -83,9 +83,18 @@ const Navbar = () => {
                     </Link>
                     </Typography>
                 </MenuItem>
+                <MenuItem onClick={handleCloseNavMenu}>
+                  <Typography sx={{ textAlign: 'center' }}>
+                    <Link href={`/faq`} style={{textDecoration: 'none'}}>
+                    FAQ
+                    </Link>
+                    </Typography>
+                </MenuItem>
             </Menu>
           </Box>
+          <Link href={`/`} style={{textDecoration: 'none', color:'inherit'}}>
           <HomeIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          </Link>
           <Typography
             variant="h5"
             noWrap
@@ -127,6 +136,14 @@ const Navbar = () => {
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 About Us
+              </Button>
+                </Link>
+            <Link href={'/faq'} style={{textDecoration: 'none'}}>
+              <Button
+                onClick={handleCloseNavMenu}
+                sx={{ my: 2, color: 'white', display: 'block' }}
+              >
+                FAQ
               </Button>
                 </Link>
           </Box>

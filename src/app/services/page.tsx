@@ -2,6 +2,12 @@ import {Box, Grid, Accordion, AccordionActions, AccordionSummary, AccordionDetai
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Image from 'next/image';
 import styles from './Services.module.css';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Our Services | Truck Dispatching & Logistics Solutions",
+  description: "Explore our comprehensive truck dispatching and logistics solutions tailored to your needs.",
+};
 
 const services = () => {
 

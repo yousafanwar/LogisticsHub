@@ -4,6 +4,12 @@ import { FormControl, InputLabel, Input, Typography, Box, Select, MenuItem, Butt
 import Grid from '@mui/material/Grid2';
 import styles from './Contact.module.css'
 import dynamic from 'next/dynamic';
+import Head from 'next/head';
+
+<Head>
+    <title>Contact Us | Logistics Hub</title>
+    <meta name="description" content =  "Get in touch with Logistics Hub for all your truck dispatching needs. We're here to help." />
+</Head>
 
 const Map = dynamic(() => import('../components/Map'), {
     ssr: false,

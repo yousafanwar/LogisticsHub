@@ -1,6 +1,12 @@
 import { List, ListItem, Input, Typography, Box, Select, MenuItem, Button, FormHelperText, Alert } from '@mui/material';
 import styles from './About.module.css';
 import Check from '@mui/icons-material/Check'
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+    title: "About Us | Logistics Hub - Your Trusted Dispatch Partner",
+    description:  "Learn about Logistics Hub, your trusted partner in efficient truck dispatching and logistics solutions.",
+  };
 
 const about = () => {
 

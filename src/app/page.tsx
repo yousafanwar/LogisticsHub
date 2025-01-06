@@ -1,46 +1,18 @@
 import styles from './Home.module.css';
 import { Box, Typography, Button, List, ListItem, Card, CardContent } from '@mui/material';
+import data from './homePageData';
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Logistics Hub | Premier Truck Dispatching Services",
+  description: "Discover top-tier truck dispatching services at Logistics Hub. Your trusted partner in efficient freight logistics.",
+};
 
 const Home = () => {
 
-  const cardItemdata = [
-    {
-      title: "Dispatch",
-      description: "Efficient load planning and dispatching to maximize your fleet productivity and revenue."
-    },
-    {
-      title: "Safety",
-      description: "Ensure your fleet meets all safety regulations and standards to avoid fines and downtime."
-    },
-    {
-      title: "LogBook",
-      description: "Maintain accurate, up-to-date driver logbooks to comply with HOS regulations and improve safety."
-    },
-    {
-      title: "IFTA",
-      description: "Simplify fuel tax reporting with our IFTA management services to stay compliant."
-    },
-    {
-      title: "Accounting",
-      description: "Financial management tailored for trucking business, including invoices, collections, and payroll."
-    },
-    {
-      title: "Administration",
-      description: "Streamlined administrative support to handle paperwork, permits, and day-to-day operations."
-    },
-    {
-      title: "Hiring drivers",
-      description: "Professional drivers recruitment services to find qualified, reliable drivers for your fleet"
-    },
-    {
-      title: "MC Setup",
-      description: "Set up with brokers to access a larger pool of loads and grow your business"
-    }
-  ]
 
   return (
     <Box>
-      {/* <Navbar /> */}
       <Box className={`${styles.hero}`}>
         <Box gap={5} className={`${styles.overlay}`}>
           <Typography variant='h1'>Reliable Truck Dispatching Services Across the USA</Typography>
@@ -52,7 +24,7 @@ const Home = () => {
         </Box>
       </Box>
       <Card className={styles.cardContainer}>
-        {cardItemdata.map((item, index) => {
+        {data.map((item, index) => {
           return <CardContent key={index} className={styles.card}>
             <Typography variant='h5' className={styles.cardTitle}>{item.title}</Typography>
             <Typography variant='body1' className={styles.cardDescription}>{item.description}</Typography>
