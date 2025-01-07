@@ -35,9 +35,9 @@
                   </Box>
               <Box>
               <Typography variant='h5'>Reliable freight dispatching for dry vans.</Typography>
-              <Typography variant='body1'>
-                We provide efficient dispatching services for dry vans, ensuring timely and secure transportation of general cargo across various routes.
-              </Typography>              </Box>
+              <Typography variant='body1'>Our dry van services offer secure and efficient transportation for general freight. We ensure your goods are delivered safely and on time. Ideal for various types of cargo, our dry vans are a reliable choice for your logistics needs. We focus on maintaining high standards of safety and efficiency. Let us handle your freight with care and precision..</Typography>
+
+              </Box>
               </Box>
             </AccordionDetails>
           </Accordion>
@@ -64,7 +64,7 @@
               <Box>
               <Typography variant='h5'>Temperature-sensitive freight dispatching services.</Typography>
               <Typography variant='body1'>
-                Our reefer dispatch services specialize in transporting perishable goods, ensuring they remain at optimal temperatures throughout the journey.
+              We specialize in temperature-controlled freight with our reefer services. Perfect for perishable goods, we ensure your cargo reaches its destination in optimal condition. Our team handles your temperature-sensitive shipments with utmost care. Count on us for reliable and safe reefer dispatching. We prioritize maintaining the integrity of your goods throughout transit.
               </Typography>
               </Box>
               </Box>
@@ -93,7 +93,7 @@
               <Box>
               <Typography variant='h5'>Efficient dispatch services for flatbed trucks.</Typography>
               <Typography variant='body1'>
-                We handle oversized and heavy loads with our flatbed dispatching services, ensuring safe and efficient transportation.
+              Our flatbed dispatching services are tailored for oversized and heavy cargo. We provide safe and reliable transport solutions for complex freight needs. With specialized equipment, we can handle your unique shipping requirements. Trust us to deliver your oversized loads securely and efficiently. Our team is experienced in managing flatbed logistics.
               </Typography>
               </Box>
               </Box>
@@ -122,7 +122,7 @@
               <Box>
               <Typography variant='h5'>Dedicated dispatching for box trucks.</Typography>
               <Typography variant='body1'>
-                Our box truck dispatch services are tailored to meet regional and long-haul needs, ensuring consistent load availability and support.
+              Versatile and efficient, our box truck services are ideal for small to medium-sized freight. We offer quick deliveries within urban areas, ensuring your cargo arrives on time. Our box trucks are perfect for businesses requiring flexible and reliable transportation. We adapt to your specific logistics needs with ease. Experience seamless box truck dispatching with us.
               </Typography>
               </Box>
               </Box>
@@ -149,10 +149,9 @@
                       />
                   </Box>
               <Box>
-              <Typography variant='caption'>Fast dispatch services for hotshot trucks.</Typography>
+              <Typography variant='h4'>Fast dispatch services for hotshot trucks.</Typography>
               <Typography variant='body1'>
-                We provide rapid dispatching services for hotshot trucks, perfect for urgent and time-sensitive deliveries.
-              </Typography>
+              For urgent deliveries, our hot shot services provide fast and efficient transport. Ideal for smaller loads needing immediate attention, we ensure your freight is prioritized. We specialize in time-sensitive deliveries, meeting tight deadlines with precision. Our hot shots are perfect for emergency shipments requiring rapid response. Trust us for reliable hot shot dispatching.              </Typography>
               </Box>
               </Box>
             </AccordionDetails>
