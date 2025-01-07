@@ -33,6 +33,12 @@
     }
 }
 
+@media(width > 760px){
+    .overlay h1{
+        font-size: 4rem;
+    }
+}
+
 .overlay {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
@@ -88,11 +94,11 @@
 }
 
 .btn {
-    background-color: inherit;
-    color: black;
+    background-color: black;
+    color: white;
 }
 
 .btn:hover {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }

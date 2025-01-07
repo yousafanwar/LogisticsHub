@@ -1,8 +1,7 @@
-import type { Metadata } from "next";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import 'leaflet/dist/leaflet.css';
-
+import './globals.css'
 
 export default function RootLayout({
   children,

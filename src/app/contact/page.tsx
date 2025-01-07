@@ -15,7 +15,6 @@ const Map = dynamic(() => import('../components/Map'), {
     ssr: false,
 });
 
-
 const contact = () => {
 
     const [name, setName] = useState<string>('');
@@ -129,7 +128,10 @@ const contact = () => {
                 }
 
             </Grid>
+            <Box sx={{width: "90vw"}}>
+                <Typography variant='h5'>Where to find us</Typography>
             <Map />
+            </Box>
         </Box>
     )
 }
